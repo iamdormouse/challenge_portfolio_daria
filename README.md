@@ -12,7 +12,7 @@ Why do I need this course?
 2. [x] I'm the type of person who rearranges the price tags in the store if they are not under the corresponding product:point_up: I like to find errors, come up with scenarios, improve the product and HELP the people I interact with. 
 So I think this role is made for me. Let's assume that these 10 years of downtime were not:grimacing:
 What do I expect from the course? That then everything will be as clear and structured as in the first task. Then my chances of success are great.
-My goal? First, win an internship, and then we'll see!:unamused:
+My goal? First, win an internship, and then we'll see!:smirk:
 
 I mentally wish good luck to everyone.
 
