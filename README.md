@@ -4,7 +4,7 @@
 
 First of all, I would like to thank my parents for giving me to this world :blush: 
 Secondly, thanks to the targeted ads that showed me this course.
-And thirdly, thanks to the Dare IT team for giving me a second chance:pray:
+And thirdly, thanks to the Dare IT team for giving me a second chance:pray:  
 10 years ago, a person close to me said: you can become a software tester. I studied theory for a few days, 
 but then I gave up. What can I say? The next 10 years were not very good:unamused:...
 Why do I need this course? 
