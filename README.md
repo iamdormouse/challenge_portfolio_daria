@@ -22,6 +22,44 @@ I mentally wish good luck to everyone.
 
 # Task 2: Selectors
 
-### Subtask 1
+### Subtask 1 
 
-
+**header_xpath**
+```
+//h5    
+//*[text()='Scouts Panel']   
+//*/div[1]/h5    
+//*/div/child::div/h5 
+```
+**login_field_xpath**
+```
+//*[@id='login']  
+//input[@type='text']  
+//input[@name='login']
+```
+**password_field_xpath**
+```
+//*[@id='password']  
+//*[@name='password']  
+//*[@type='password']  
+```
+**remind_password_hyperlink_xpath**
+```
+//a  
+//a[text()='Remind password']  
+//div/*/a  
+//a[text()='Remind password' or 'Przypomnij hasło']  
+```
+**language_button_xpath**
+```
+//*[@role='button']  
+//*[text()='Polski']   
+//*[contains(@aria-haspopup, 'listbox')]  
+```
+**sign_in_button_xpath**
+```
+//*/span[1]  
+//*[text()='Sign in']  
+//button/span[1]  
+//*[@class='MuiButton-label']  
+```
