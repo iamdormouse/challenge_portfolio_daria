@@ -1,6 +1,7 @@
 # **Task 1: Software configuration**
 
-### Subtask 1: Why did I choose to participate in the challenge portfolio?
+<details>
+  <summary>### Subtask 1: Why did I choose to participate in the challenge portfolio?</summary>
 
 First of all, I would like to thank my parents for giving me to this world :blush: 
 Secondly, thanks to the targeted ads that showed me this course.
@@ -17,4 +18,4 @@ My goal? First, win an internship, and then we'll see!:smirk:
 
 I mentally wish good luck to everyone.
 
-### Daria:new_moon_with_face:
+### Daria:new_moon_with_face:</details>
