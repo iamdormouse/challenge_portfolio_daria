@@ -11,6 +11,5 @@
      language_button_xpath = "//*[@role='button']"
      sign_in_button_xpath = "//*[text()='Sign in']"
 
-
      def type_in_email(self, email):
          self.field_send_keys(self.login_field_xpath, email)
