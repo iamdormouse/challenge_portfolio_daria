@@ -20,5 +20,8 @@ I mentally wish good luck to everyone.
 
 ### Daria:new_moon_with_face:</details>
 
+# Task 2: Selectors
+
+### Subtask 1
 
 
