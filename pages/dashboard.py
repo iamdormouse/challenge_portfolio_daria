@@ -13,5 +13,4 @@ class Dashboard(BasePage):
     reports_counter_xpath = "//*[text()='Reports count']"
     events_counter_xpath = "//*[text()='Events count']"
     logo_xpath = "//*[@title='Logo Scouts Panel']"
-
     pass
