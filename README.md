@@ -20,13 +20,5 @@ I mentally wish good luck to everyone.
 
 ### Daria:new_moon_with_face:</details>
 
-# Task 2: Selectors
 
-## Subtask 1
-
-**main_title_xpath**
-//h5
-//*[text()='Scouts Panel']
-//*/div[1]/h5
-//*/div/child::div/h5
 
