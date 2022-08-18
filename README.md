@@ -18,7 +18,8 @@ My goal? First, win an internship, and then we'll see!:smirk:
 
 I mentally wish good luck to everyone.
 
-### Daria:new_moon_with_face:</details>
+### Daria:new_moon_with_face: 
+</details>
 
 # Task 2: Selectors
 
@@ -58,8 +59,7 @@ I mentally wish good luck to everyone.
 ```
 **sign_in_button_xpath**
 ```
-//*/span[1]  
+//*/button[@type='submit']  
 //*[text()='Sign in']  
 //button/span[1]  
-//*[@class='MuiButton-label']  
 ```
