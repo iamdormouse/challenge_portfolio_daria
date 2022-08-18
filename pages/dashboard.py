@@ -12,7 +12,7 @@ class Dashboard(BasePage):
     sign_out_block_xpath = "//*[text()='Sign out']"
     sign_out_icon_xpath = "//*[starts-with(@d, 'M13')]"  #I just added this one after sending my work
     players_counter_xpath = "//*[text()='Players count']"
-    number_of_players_xpath = "//*[text()='Players count']/following::b[1]"  #I just added this one after sending my work
+    number_of_players_xpath = "//*[text()='Players count']/following::b[1]"  #I just added this after sending my work
     matches_counter_xpath = "//*[text()='Matches count']"
     number_of_matches_xpath = "//*[text()='Matches count']/following::b[1]"
     reports_counter_xpath = "//*[text()='Reports count']"
@@ -22,4 +22,3 @@ class Dashboard(BasePage):
     logo_xpath = "//*[@title='Logo Scouts Panel']"
     scouts_panel_xpath = "//h2[text()='Scouts Panel']"
     caption_xpath = "//h2[text()='Scouts Panel']/following::p"
-    pass
