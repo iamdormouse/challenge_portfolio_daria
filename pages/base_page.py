@@ -16,3 +16,7 @@ class BasePage():
     def get_page_title(self, url):
         self.driver.get(url)
         return self.driver.title
+
+    def assert_element_text(self, driver, xpath, expected_text):
+        element_text = driver.find_element(by=By.XPATH, value=xpath).text
+        assert expected_text == element_text
