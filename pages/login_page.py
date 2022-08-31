@@ -21,6 +21,7 @@ class LoginPage(BasePage):
         self.field_send_keys(self.password_field_xpath, password)
 
     def click_on_the_sign_in_button(self):
+        self.wait_for_element_to_be_clickable(self.sign_in_button_xpath)
         self.click_on_the_element(self.sign_in_button_xpath)
 
     def title_of_page(self):
@@ -28,3 +29,4 @@ class LoginPage(BasePage):
 
     def check_header(self):
         self.assert_element_text(self.driver, self.header_xpath, self.expected_text)
+
