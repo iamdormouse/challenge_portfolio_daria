@@ -10,7 +10,7 @@ from pages.add_player_page import AddPlayerPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
 
-class TestDashboardPage(unittest.TestCase):
+class TestAddPlayer(unittest.TestCase):
 
     @classmethod
     def setUp(self):
