@@ -21,8 +21,6 @@ class TestLoginPage(unittest.TestCase):
 
     def test_login_to_the_system(self):
         user_login = LoginPage(self.driver)
-        user_login.click_on_the_sign_in_button()  #TC01 login without data
-        time.sleep(3)
         user_login.title_of_page()
         user_login.check_header()
         user_login.type_in_email('user06@getnada.com')

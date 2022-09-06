@@ -36,7 +36,7 @@ class TestAddPlayer(unittest.TestCase):
         add_player_page.click_submit_button()
         time.sleep(5)
 
-    def test_clear_the_form(self):                             #TC06 Clear the form
+    def test_clear_the_form(self):                             #TC05 Clear the form
         user_login = LoginPage(self.driver)
         dashboard_page = Dashboard(self.driver)
         add_player_page = AddPlayerPage(self.driver)

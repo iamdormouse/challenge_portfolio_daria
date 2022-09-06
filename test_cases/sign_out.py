@@ -19,7 +19,7 @@ class TestDashboardPage(unittest.TestCase):
         self.driver.fullscreen_window()
         self.driver.implicitly_wait(IMPLICITLY_WAIT)
 
-    def test_sign_out_of_system(self):                    #TC02 Sign out of the system
+    def test_sign_out_of_system(self):                    #TC01 Sign out of the system
         user_login = LoginPage(self.driver)
         dashboard_page = Dashboard(self.driver)
         user_login.type_in_email('user06@getnada.com')
@@ -28,7 +28,7 @@ class TestDashboardPage(unittest.TestCase):
         dashboard_page.click_on_the_sign_out_button()
         time.sleep(3)
 
-    def test_switch_the_language(self):                   #TC03 Switch the language
+    def test_switch_the_language(self):                   #TC02 Switch the language
         user_login = LoginPage(self.driver)
         dashboard_page = Dashboard(self.driver)
         user_login.type_in_email('user06@getnada.com')
@@ -37,7 +37,7 @@ class TestDashboardPage(unittest.TestCase):
         dashboard_page.switch_the_language()
         time.sleep(3)
 
-    def test_logo_visibility(self):                       #TC05 Check Logo visibility
+    def test_logo_visibility(self):                       #TC03 Check Logo visibility
         user_login = LoginPage(self.driver)
         dashboard_page = Dashboard(self.driver)
         user_login.type_in_email('user06@getnada.com')
