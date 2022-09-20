@@ -11,7 +11,7 @@ class LoginPage(BasePage):
     language_button_xpath = "//input[@value='en' or @value='pl']"
     sign_in_button_xpath = "//*/button[@type='submit']"
     expected_title = 'Scouts panel - sign in'
-    login_url = 'https://scouts-test.futbolkolektyw.pl/en/'
+    login_url = 'https://scouts.futbolkolektyw.pl/en/'
     expected_text = 'Scouts Panel'
 
     def type_in_email(self, email):
@@ -30,3 +30,7 @@ class LoginPage(BasePage):
     def check_header(self):
         self.assert_element_text(self.driver, self.header_xpath, self.expected_text)
 
+    def do_login(self):
+        self.field_send_keys(self.login_field_xpath, 'user06@getnada.com')
+        self.field_send_keys(self.password_field_xpath, 'Test-1234')
+        self.click_on_the_element(self.sign_in_button_xpath)

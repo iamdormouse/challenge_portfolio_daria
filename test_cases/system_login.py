@@ -15,20 +15,21 @@ class TestLoginPage(unittest.TestCase):
     def setUp(self):
         os.chmod(DRIVER_PATH, 755)
         self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
-        self.driver.get('https://scouts-test.futbolkolektyw.pl/en')
+        self.driver.get('https://scouts.futbolkolektyw.pl/en/')
         self.driver.fullscreen_window()
         self.driver.implicitly_wait(IMPLICITLY_WAIT)
 
-    def test_login_to_the_system(self):
+    def test_login_to_the_system(self):          #TC01 passed
         user_login = LoginPage(self.driver)
-        user_login.title_of_page()
-        user_login.check_header()
-        user_login.type_in_email('user06@getnada.com')
-        user_login.type_in_password('Test-1234')
-        user_login.click_on_the_sign_in_button()
         dashboard_page = Dashboard(self.driver)
-        dashboard_page.title_of_page()
-        time.sleep(5)
+        user_login.do_login()
+        dashboard_page.check_logo_visibility()
+        time.sleep(3)
+
+    def test_check_login_header(self):           #TC02 failed assertion error
+        user_login = LoginPage(self.driver)
+        user_login.check_header()
+        time.sleep(3)
 
     @classmethod
     def tearDown(self):

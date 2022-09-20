@@ -9,6 +9,7 @@ class AddPlayerPage(BasePage):
     submit_button_xpath = "//*[@type='submit']"
     add_player_page_url = 'https://scouts-test.futbolkolektyw.pl/en/players/add'
     clear_button_xpath = "//*[text()='Clear']"
+    added_player_xpath = "//*[text()='Peter Griffin']"
 
     def type_in_name(self, name):
         self.field_send_keys(self.name_field_xpath, name)
@@ -29,3 +30,6 @@ class AddPlayerPage(BasePage):
     def click_clear_button(self):
         self.wait_for_element_to_be_clickable(self.clear_button_xpath)
         self.click_on_the_element(self.clear_button_xpath)
+
+    def wait_for_player_to_be_added(self):
+        self.wait_for_visibility_of_element_located(self.added_player_xpath)
