@@ -1,4 +1,5 @@
 Hi! My name is Daria, I'm Ukrainian who currently lives in Poland. This repository is my study project devoted to web-application testing. 
+Tests were written for the https://scouts.futbolkolektyw.pl/en/
 
 Practice of finding unique xPath locators:
 
