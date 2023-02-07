@@ -36,8 +36,8 @@ class BasePage():
         wait = WebDriverWait(self.driver, 5)
         element = wait.until(EC.visibility_of_element_located((locator_type, locator)))
         if element.is_displayed():
-            print("Element found")
+            print("Element is found")
         else:
-            print("Element not found")
+            print("Element is not found")
 
 

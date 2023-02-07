@@ -30,6 +30,7 @@ class TestAddPlayer(unittest.TestCase):
         add_player_page.type_in_surname('Griffin')
         add_player_page.type_in_age('01.01.1980')
         add_player_page.type_in_main_position('family guy')
+        add_player_page.type_in_previous_club('Dolny Slask')
         add_player_page.click_submit_button()
         add_player_page.wait_for_player_to_be_added()
         time.sleep(5)
